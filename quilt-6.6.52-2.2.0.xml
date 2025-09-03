@@ -16,6 +16,8 @@
   <remote name="sbabic" fetch="https://github.com/sbabic"/>
   <remote name="quilt" fetch="git@github.com:QuiltAir"/>
 
+  <remote name="zenoh" fetch="https://github.com/Jarsop"/>
+
   <project name="poky" remote="yp" path="sources/poky" revision="dc4827b3660bc1a03a2bc3b0672615b50e9137ff" upstream="scarthgap"/>
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="3cadb81ffaa9f03b92e302843cb22a9cd41df34b" upstream="scarthgap"/>
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="bc865c5276c2ab4031229916e8d7c20148dfbac3" upstream="scarthgap"/>
@@ -38,6 +40,8 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="783becb4b5716d989f50db95b7133d38eae5b47b" upstream="imx_matter_2024_q2-post"/>
   <project name="meta-matter" remote="imx" path="sources/meta-matter" revision="96311d23e51ddd76cfa73a8bbd65b13c82ab5f7d" upstream="imx_matter_2024_q1-post"/>
   <project name="meta-nxp-security-reference-design" remote="imx-support" path="sources/meta-nxp-security-reference-design" revision="b9ddc151c452ae09232f5d5cb5c8e52a77617f6e" upstream="scarthgap-6.6.23-2.0.0"/>
+
+  <project name="meta-zenoh" remote="zenoh" path="sources/meta-zenoh" revision="0ec94ef54136a90e5bc6c79d283b3121a7d21cb5" upstream="scarthgap"/>
 
   <project name="meta-swupdate" remote="sbabic" path="sources/meta-swupdate" revision="d598d4e675b541301ea1dfc8f0c8931983b4dcd0" upstream="scarthgap"/>
 
